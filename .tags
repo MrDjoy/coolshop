@@ -1,0 +1,112 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DB_CHARSET	.\configs\configs.php	/^define("DB_CHARSET","utf8");$/;"	d
+DB_DBNAME	.\configs\configs.php	/^define("DB_DBNAME","shop");$/;"	d
+DB_HOST	.\configs\configs.php	/^define("DB_HOST","localhost");$/;"	d
+DB_PWD	.\configs\configs.php	/^define("DB_PWD","1023747194");$/;"	d
+DB_USER	.\configs\configs.php	/^define("DB_USER","root");$/;"	d
+ROOT	.\include.php	/^define("ROOT", dirname(__FILE__));$/;"	d
+_SESSION	.\core\admin.inc.php	/^    $_SESSION=array();$/;"	v
+__clone	.\data\mysql.class.php	/^    private function __clone(){$/;"	f
+__construct	.\data\mysql.class.php	/^    private function __construct($config){$/;"	f
+act	.\admin\doAdminAction.php	/^$act=$_REQUEST['act'];$/;"	v
+addAdmin	.\core\admin.inc.php	/^function addAdmin(){$/;"	f
+alertMes	.\lib\common.func.php	/^function alertMes($mes,$url){$/;"	f
+angle	.\lib\image.func.php	/^        $angle = mt_rand(-15,15);$/;"	v
+arr	.\core\admin.inc.php	/^    $arr = $_POST;$/;"	v
+arr	.\data\mysql.class.php	/^        $arr = array();$/;"	v
+autoFlag	.\admin\doLogin.php	/^$autoFlag=$_POST['autoFlag'];$/;"	v
+black	.\lib\image.func.php	/^    $black = imagecolorallocate($image,0,0,0);$/;"	v
+buildRandomString	.\lib\string.func.php	/^function buildRandomString($type=1 , $length=4){$/;"	f
+chars	.\lib\image.func.php	/^     $chars = buildRandomString($type,$length);$/;"	v
+chars	.\lib\string.func.php	/^        $chars = implode("", array_merge(range("a","z"),range("A","Z"),range(0,9)));$/;"	v
+chars	.\lib\string.func.php	/^        $chars = implode("",array_merge(range("a","z"),range("A", "Z")));$/;"	v
+chars	.\lib\string.func.php	/^        $chars = implode("",range(0, 9));$/;"	v
+chars	.\lib\string.func.php	/^    $chars = str_shuffle($chars);$/;"	v
+charset	.\data\mysql.class.php	/^        $this->charset = isset($config['charset'])?$config['charset']:'utf8';$/;"	v
+charset	.\data\mysql.class.php	/^    private  $charset ;$/;"	v
+checkAdmin	.\core\admin.inc.php	/^function checkAdmin($sql){$/;"	f
+checkLogined	.\core\admin.inc.php	/^function checkLogined(){$/;"	f
+closeDB	.\data\mysql.class.php	/^    public function closeDB(){$/;"	f
+color	.\lib\image.func.php	/^            $color = imagecolorallocate($image, mt_rand(50,90), mt_rand(80,200), mt_rand(100,180));$/;"	v
+color	.\lib\image.func.php	/^        $color = imagecolorallocate($image, mt_rand(50,90), mt_rand(80,200), mt_rand(100,180));$/;"	v
+config	.\data\test.php	/^$config = array($/;"	v
+connect	.\data\mysql.class.php	/^    \/\/ private function connect($config){$/;"	f
+connect	.\data\mysql.class.php	/^    private function connect(){$/;"	f
+connect	.\lib\mysql.func.php	/^function connect(){$/;"	f
+db	.\data\test.php	/^$db = mysql::getInstance($config);$/;"	v
+dbname	.\data\mysql.class.php	/^        $this->dbname = isset($config['dbname'])?$config['dbname']:'db1';$/;"	v
+dbname	.\data\mysql.class.php	/^    private  $dbname;$/;"	v
+delete	.\lib\mysql.func.php	/^function delete($table,$where=null){$/;"	f
+exec	.\data\mysql.class.php	/^    public function exec($sql){$/;"	f
+fetchAll	.\lib\mysql.func.php	/^function fetchAll($sql,$result_type=MYSQL_ASSOC){$/;"	f
+fetchOne	.\lib\mysql.func.php	/^function fetchOne($sql,$result_type=MYSQL_ASSOC){$/;"	f
+fontfile	.\lib\image.func.php	/^        $fontfile = "..\/fonts\/".$fontfiles[mt_rand(0,count($fontfiles)-1)];$/;"	v
+fontfiles	.\lib\image.func.php	/^    $fontfiles = array("Hermit-bold_0.otf","seguisym.ttf","symbol.ttf","webdings.ttf","simsunb.ttf");$/;"	v
+getInsertId	.\lib\mysql.func.php	/^function getInsertId(){$/;"	f
+getInstance	.\data\mysql.class.php	/^    public static function getInstance($config){$/;"	f
+getOneData	.\data\mysql.class.php	/^    function getOneData($sql){$/;"	f
+getOnerow	.\data\mysql.class.php	/^    public function getOnerow($sql){$/;"	f
+getResultNum	.\lib\mysql.func.php	/^function getResultNum($sql){$/;"	f
+getRows	.\data\mysql.class.php	/^    public function getRows($sql){$/;"	f
+height	.\lib\image.func.php	/^    $height = 28;$/;"	v
+host	.\data\mysql.class.php	/^        $this->host = isset($config['host'])?$config['host']:'localhost';  \/\/考虑空值情况用默认值代替$/;"	v
+host	.\data\mysql.class.php	/^    private  $host;$/;"	v
+image	.\lib\image.func.php	/^    $image = imagecreatetruecolor($width, $height);$/;"	v
+insert	.\lib\mysql.func.php	/^function insert($table,$array){$/;"	f
+key	.\lib\mysql.func.php	/^    foreach($array as $key=>$val){$/;"	v
+keys	.\lib\mysql.func.php	/^    $keys=join(",",array_keys($array));$/;"	v
+length	.\lib\string.func.php	/^function buildRandomString($type=1 , $length=4){$/;"	v
+link	.\data\mysql.class.php	/^    private static $link = NULL;$/;"	v
+logout	.\core\admin.inc.php	/^function logout(){$/;"	f
+mysql	.\data\mysql.class.php	/^class mysql{$/;"	c
+passwd	.\data\mysql.class.php	/^        $this->passwd = isset($config['passwd'])?$config['passwd']:'1023747194';$/;"	v
+passwd	.\data\mysql.class.php	/^    private  $passwd ;$/;"	v
+passwd	.\data\test.php	/^\/\/ $passwd = md5("Djoy");$/;"	v
+password	.\admin\doLogin.php	/^$password = md5($_POST['password']);$/;"	v
+port	.\data\mysql.class.php	/^        $this->port = isset($config['port'])?$config['port']:'3306';$/;"	v
+port	.\data\mysql.class.php	/^    private  $port;$/;"	v
+rec	.\data\mysql.class.php	/^        $rec = mysql_fetch_row($result);\/\/此处必须为取一列！$/;"	v
+res	.\admin\doLogin.php	/^    $res = checkAdmin($sql);\/\/查询coolshop_admin表中是否有表单提交的username和password对应值,有输出结果集，没有输出NULL$/;"	v
+resource	.\data\mysql.class.php	/^        $this->resource = @mysql_connect("{$this->host}:{$this->port}","$this->user","$this->passwd" )$/;"	v
+resource	.\data\mysql.class.php	/^    \/\/     $this->resource = mysql_connect("{$config['host']}:{$config['port']}","{$config['username']}","{$config['passwd']}")or die("连接失败！".mysql_errno().":".mysql_error()."\/n"); $/;"	v
+resource	.\data\mysql.class.php	/^    private $resource;$/;"	v
+result	.\data\mysql.class.php	/^        $result  = mysql_query($sql);$/;"	v
+result	.\data\mysql.class.php	/^        $result = $this->exec($sql);$/;"	v
+result	.\data\mysql.class.php	/^        \/\/ $result = mysql_query($sql);$/;"	v
+result	.\data\test.php	/^$result = $db->getRows($sql);$/;"	v
+result	.\lib\mysql.func.php	/^        $result=mysql_query($sql);$/;"	v
+result	.\lib\mysql.func.php	/^    $result=mysql_query($sql);$/;"	v
+row	.\lib\mysql.func.php	/^    $row=mysql_fetch_array($result,$result_type);$/;"	v
+selectDB	.\data\mysql.class.php	/^    public function selectDB($dbname){$/;"	f
+sep	.\lib\mysql.func.php	/^            $sep="";$/;"	v
+sep	.\lib\mysql.func.php	/^            $sep=",";$/;"	v
+setCharset	.\data\mysql.class.php	/^    public function setCharset($charset){$/;"	f
+show	.\admin\index.php	/^        function show(num,change){$/;"	f
+size	.\lib\image.func.php	/^        $size = mt_rand(14,18);$/;"	v
+sql	.\admin\doLogin.php	/^    $sql = "select * from coolshop_admin where username = '{$username}' and password = '{$password}' ";$/;"	v
+sql	.\data\test.php	/^$sql = "select *from coolshop_admin;";$/;"	v
+sql	.\data\test.php	/^\/\/ $sql = "insert coolshop_admin(username,password,email) values('Djoy','{$passwd}','1023747194@qq.com')";$/;"	v
+sql	.\lib\mysql.func.php	/^        $sql="update {$table} set {$str} ".($where==null?null:" where ".$where);$/;"	v
+sql	.\lib\mysql.func.php	/^    $sql="delete from {$table} {$where}";$/;"	v
+sql	.\lib\mysql.func.php	/^    $sql="insert {$table}($keys) values({$vals})";$/;"	v
+test	.\lib\string.func.php	/^\/\/ $test = buildRandomString(3,4);$/;"	v
+text	.\lib\image.func.php	/^        $text = substr($chars, $i,1);$/;"	v
+tmp	.\data\mysql.class.php	/^        $tmp = mysql_fetch_assoc($result);\/\/只取出一行数据$/;"	v
+update	.\lib\mysql.func.php	/^function update($table,$array,$where=null){$/;"	f
+user	.\data\mysql.class.php	/^        $this->user = isset($config['user'])?$config['user']:'root';$/;"	v
+username	.\admin\doLogin.php	/^$username = $_POST['username'];$/;"	v
+username	.\data\mysql.class.php	/^    private  $username ;$/;"	v
+vals	.\lib\mysql.func.php	/^    $vals="'".join("','",array_values($array))."'";$/;"	v
+verify	.\admin\doLogin.php	/^$verify = $_POST['verify'];\/\/用户提交表单的验证码$/;"	v
+verify1	.\admin\doLogin.php	/^$verify1 = $_SESSION['verify'];\/\/后台也就是 image.fun.php中随机设置的验证码$/;"	v
+verifyImage	.\lib\image.func.php	/^function verifyImage($type = 1,$length  = 4,$pixel = 0,$line = 0,$sessName = "verify"){$/;"	f
+where	.\lib\mysql.func.php	/^    $where=$where==null?null:" where ".$where;$/;"	v
+white	.\lib\image.func.php	/^    $white = imagecolorallocate($image, 255, 255, 255);$/;"	v
+width	.\lib\image.func.php	/^    $width = 80;$/;"	v
+x	.\lib\image.func.php	/^        $x = 5+$i*$size;$/;"	v
+y	.\lib\image.func.php	/^        $y = mt_rand(20,26);$/;"	v
